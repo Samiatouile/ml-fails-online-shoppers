@@ -1,10 +1,16 @@
 {
   "model": "GBM_reference_standard_split",
   "accuracy": 0.8990267639902676,
-  "f1_purchase": 0.6458036984352774,
-  "recall_purchase": 0.5942408376963351,
-  "precision_purchase": 0.7071651090342679,
-  "roc_auc": 0.9264528544583012,
-  "cv_f1_mean": 0.6530373139344604,
-  "cv_f1_std": 0.011162644540278118
+  "f1_purchase_train": 0.7741477272727273,
+  "f1_purchase_test": 0.642754662840746,
+  "holdout_gap_f1": 0.1313930644319813,
+  "recall_purchase": 0.5863874345549738,
+  "precision_purchase": 0.7111111111111111,
+  "roc_auc": 0.9266601179769071,
+  "cv_f1_mean_on_train": 0.6530723112319513,
+  "cv_f1_std_on_train": 0.01789946879208248,
+  "naive_baseline_accuracy": 0.8450932684509327,
+  "naive_baseline_f1": 0.0,
+  "month_importance": 0.05418169973691115,
+  "pagevalues_importance": 0.6682630589077672
 }
