@@ -8,7 +8,7 @@
 
 ---
 
-## 🎯 Project Overview / Présentation
+##  Project Overview / Présentation
 
 Ce projet investigue un **mode d'échec** d'un modèle de Machine Learning non-linéaire sur le dataset [Online Shoppers Intention](https://archive.ics.uci.edu/ml/datasets/Online+Shoppers+Purchasing+Intention+Dataset) (UCI 468). Conformément à la démarche imposée par le sujet, nous adoptons une posture **scientifique plutôt qu'ingénierique** :
 
@@ -23,7 +23,7 @@ Ce projet investigue un **mode d'échec** d'un modèle de Machine Learning non-l
 
 ---
 
-## 🔑 Key Result / Résultat clé
+##  Key Result / Résultat clé
 
 > La **capacité du modèle** (profondeur, nombre d'arbres, granularité des feuilles) est la cause causale de l'écart train-validation observé. Une régularisation **guidée par diagnostic** (correction E$'$) réduit cet écart de **72.9 %** *sans dégrader significativement* le F1 test (p = 0.13).
 
@@ -35,7 +35,7 @@ Ce projet investigue un **mode d'échec** d'un modèle de Machine Learning non-l
 
 ---
 
-## 📁 Repository Structure / Structure du dépôt
+##  Repository Structure / Structure du dépôt
 
 ```
 .
@@ -77,7 +77,7 @@ Ce projet investigue un **mode d'échec** d'un modèle de Machine Learning non-l
 
 ---
 
-## ⚙️ Installation / Installation
+## Installation / Installation
 
 ### Prérequis / Prerequisites
 
@@ -124,7 +124,7 @@ jupyter       >= 1.0
 
 ---
 
-## 🚀 Usage / Utilisation
+##  Usage / Utilisation
 
 ### Reproduire les résultats du rapport
 
@@ -140,7 +140,7 @@ jupyter nbconvert --to notebook --execute 01_eda.ipynb
 jupyter nbconvert --to notebook --execute 02_experiment.ipynb
 ```
 
-⏱️ **Temps d'exécution estimé :**
+ **Temps d'exécution estimé :**
 - `01_eda.ipynb` : ~2 minutes
 - `02_experiment.ipynb` : ~8-12 minutes (entraînement de 6 modèles × 5 seeds)
 
@@ -153,7 +153,7 @@ jupyter nbconvert --to notebook --execute 02_experiment.ipynb
 
 ---
 
-## 📊 Investigation Pipeline / Démarche d'investigation
+##  Investigation Pipeline / Démarche d'investigation
 
 La démarche suit la structure imposée par le §6 du sujet :
 
@@ -190,7 +190,7 @@ La démarche suit la structure imposée par le §6 du sujet :
 
 ---
 
-## 📄 Report / Rapport
+##  Report / Rapport
 
 Le rapport complet (~14 pages, en français) est disponible sur edunao et a été envoyé par mail.
 
@@ -204,7 +204,7 @@ Structure (conforme au §8.2 du sujet) :
 
 ---
 
-## ⚠️ Limitations / Limites identifiées
+##  Limitations / Limites identifiées
 
 Conformément à l'exigence §7 du sujet, les principales menaces à la validité de nos conclusions sont :
 
@@ -218,7 +218,7 @@ Voir §5 du rapport pour la discussion complète.
 
 ---
 
-## 📜 License & Acknowledgments
+##  License & Acknowledgments
 
 Project carried out as part of the *Introduction to AI and Machine Learning* course at École Centrale Casablanca (Spring 2026).
 

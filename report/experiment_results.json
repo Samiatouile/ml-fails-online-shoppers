@@ -14,9 +14,9 @@
       "max_depth": 4.0,
       "min_samples_leaf": 1.0,
       "n_estimators": 200.0,
-      "train_F1": 0.7733902525791533,
-      "test_F1": 0.6458036984352774,
-      "gap": 0.12758655414387587
+      "train_F1": 0.7737122557726466,
+      "test_F1": 0.6446991404011462,
+      "gap": 0.1290131153715004
     },
     {
       "configuration": "high_capacity (cause AMPLIFI\u00c9E)",
@@ -24,19 +24,19 @@
       "min_samples_leaf": 1.0,
       "n_estimators": 500.0,
       "train_F1": 1.0,
-      "test_F1": 0.6434782608695652,
-      "gap": 0.35652173913043483
+      "test_F1": 0.6493506493506493,
+      "gap": 0.35064935064935066
     }
   ],
   "A_reference": {
     "label": "A \u2014 R\u00e9f\u00e9rence (overfit)",
-    "train_f1": 0.7744106160484419,
-    "train_f1_std": 0.0023001339478436167,
-    "test_f1": 0.6509271259857231,
-    "test_f1_std": 0.008200276156348319,
-    "train_auc": 0.9616807667653688,
-    "test_auc": 0.9267864859161298,
-    "gap_f1": 0.12348349006271875
+    "train_f1": 0.7737573233741872,
+    "train_f1_std": 0.0031176603871695295,
+    "test_f1": 0.6490342017800004,
+    "test_f1_std": 0.004900804308981568,
+    "train_auc": 0.961979671462618,
+    "test_auc": 0.92662695581393,
+    "gap_f1": 0.12472312159418686
   },
   "B_max_depth_2": {
     "label": "B \u2014 max_depth = 2",
@@ -44,8 +44,8 @@
     "train_f1_std": 0.002458066074225984,
     "test_f1": 0.6400689887535015,
     "test_f1_std": 0.0010126151862212957,
-    "train_auc": 0.9385725225852554,
-    "test_auc": 0.924324949000613,
+    "train_auc": 0.9385733713890863,
+    "test_auc": 0.9243264563716573,
     "gap_f1": 0.040497570889352796
   },
   "C_min_samples_leaf_50": {
@@ -54,19 +54,19 @@
     "train_f1_std": 0.0016728125396654671,
     "test_f1": 0.6535830491195519,
     "test_f1_std": 0.0012461440611498625,
-    "train_auc": 0.9560977359886852,
-    "test_auc": 0.9277123885801568,
+    "train_auc": 0.9560977517072746,
+    "test_auc": 0.927708620152546,
     "gap_f1": 0.08943265902436193
   },
   "D_early_stopping": {
     "label": "D \u2014 Early stopping",
-    "train_f1": 0.7309884629511625,
-    "train_f1_std": 0.012650509444932503,
-    "test_f1": 0.649637766623796,
-    "test_f1_std": 0.004563870016635377,
-    "train_auc": 0.9515888350230293,
-    "test_auc": 0.927060827446212,
-    "gap_f1": 0.08135069632736647
+    "train_f1": 0.7363375567996953,
+    "train_f1_std": 0.005532716206192247,
+    "test_f1": 0.6465688708983462,
+    "test_f1_std": 0.008004343970911591,
+    "train_auc": 0.9525991237829489,
+    "test_auc": 0.9269877199505583,
+    "gap_f1": 0.08976868590134901
   },
   "E_combined_regularization": {
     "label": "E \u2014 Combinaison r\u00e9gularis\u00e9e",
@@ -74,8 +74,8 @@
     "train_f1_std": 0.010318117841510231,
     "test_f1": 0.6363772604569741,
     "test_f1_std": 0.005126731966504622,
-    "train_auc": 0.9444103595564466,
-    "test_auc": 0.9254919054174915,
+    "train_auc": 0.9444103595564467,
+    "test_auc": 0.9254914029604766,
     "gap_f1": 0.06944971478346273
   },
   "E_prime_guided_by_diagnostic": {
@@ -91,19 +91,20 @@
   "best_overall_label": "E' \u2014 R\u00e9gularisation guid\u00e9e par diagnostic",
   "validated_corrections": [
     "B \u2014 max_depth = 2",
+    "C \u2014 min_samples_leaf = 50",
     "D \u2014 Early stopping",
     "E \u2014 Combinaison r\u00e9gularis\u00e9e",
     "E' \u2014 R\u00e9gularisation guid\u00e9e par diagnostic"
   ],
   "stat_test_best_vs_ref": {
-    "t": 1.671859956678801,
-    "p": 0.13309399526075116
+    "t": 1.6394930588464245,
+    "p": 0.13974195538980227
   },
-  "gap_reduction_percent": 71.98303301845857,
+  "gap_reduction_percent": 72.26149554603563,
   "success_criteria": {
     "gap_reduction_required": 0.3,
     "f1_tolerance_std": 1.0,
-    "threshold_gap": 0.08931058790071311,
-    "threshold_f1": 0.6346410538949993
+    "threshold_gap": 0.09030918076005028,
+    "threshold_f1": 0.6263245694206323
   }
 }
